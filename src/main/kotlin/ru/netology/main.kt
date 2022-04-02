@@ -9,7 +9,7 @@ const val MIR = "Мир"
 
 
 
-fun moneyTransferCommission(moneyTransfer: Int, typeCard: String, transferAmounts: Int): Int {
+fun moneyTransferCommission(moneyTransfer: Int, typeCard: String = VK_PAY, transferAmounts: Int): Int {
 
 
 
