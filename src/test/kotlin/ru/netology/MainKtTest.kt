@@ -16,7 +16,7 @@ class MainKtTest {
         val result =
             moneyTransferCommission(moneyTransfer = money, typeCard = card, transferAmounts = amount)
 
-        assertEquals(0, result)
+        assertEquals(1, result)
     }
 
     @Test
